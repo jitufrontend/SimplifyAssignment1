@@ -5,7 +5,6 @@ function App() {
   const [users, setUsers] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState('')
-  // Reserved for future enhancements (e.g., modal details)
 
   useEffect(() => {
     let isMounted = true
